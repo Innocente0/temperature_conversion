@@ -1,16 +1,21 @@
 # temperature_convesion
 
-A new Flutter project.
+My first Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Temperature Converter App
 
-A few resources to get you started if this is your first Flutter project:
+A Flutter-based mobile application that converts temperatures between Fahrenheit and Celsius. It includes:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Toggle Selection: Choose either °F → °C or °C → °F with radio buttons.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Validated Input: Enter any numeric value; the convert button is enabled only when input is valid.
+
+Real-time Output: Displays the converted value to two decimal places.
+
+Conversion History: Animated list of past conversions; newest entries slide in at the top.
+
+Clear History: Quickly erase all past records with a single tap.
+
+Responsive Layout: Works seamlessly in both portrait and landscape orientations.
